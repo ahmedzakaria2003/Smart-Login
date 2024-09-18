@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+  
+<head>
+        <!-- *============= Google Fonts ============= -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- main style link -->
+    <link rel="stylesheet" href="./css/ss1.css">
+</head>
+
+<body>
+    <form action="" id="registern">
+<div class="container text-center my-5">
+    <div class="section m-auto w-75 p-5">
+        <h1>Smart Login System</h1>
+        <input id="signUpName" class="form-control my-3" placeholder="Enter your name" type="text">
+        <input id="signUpEmail" class="form-control my-3" placeholder="Enter your email" type="text">
+        <input id="signUpPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+        <div class="div alert alert-danger d-none" id="nameAlert">At Least two character</div>
+        <div class="div alert alert-danger d-none" id="emailAlert">Please enter avalid email</div>
+        <div class="div alert alert-danger d-none" id="passwordAlert">At Least 8-character</div>
+        <div class="div alert alert-danger d-none" id="successAlert">Sucess you can login</div>
+        <div class="div alert alert-danger d-none" id="existAlert">email is existed</div>
+
+
+
+        <button  class="btn btn-outline-info w-100 my-3">SignUp</button>
+        <p class="text-white  mt-2">Don't have an acount? <a class="text-white" href="./index (2).html">Signin</a></p>
+    </div>
+</div>
+    </form>
+
+
+    <!-- bootstrap js -->
+    <script src="./script/bootstrap.bundle.min.js"></script>
+    <!-- mani js file -->
+    <script src="./script/main1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    background-color:#343a40;
+    
+    
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+h1 {
+    color: rgb(23, 162, 184);
+    
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.form-control{
+    background-color:#343a40;
+    
+}
+.form-control::placeholder{
+    color: rgb(182, 175, 175);
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+input, textarea {
+    background-color: transparent !important;
+    color: rgb(255, 255, 255) !important;
+}
